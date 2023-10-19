@@ -1,0 +1,112 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffd214;
+    color: #fff;
+}
+
+
+nav{
+    width: 100vw;
+    height: 20vh;
+    background-color: #0D0454;
+}
+
+nav > div{
+    padding: 0;
+    position: relative;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: -1.5%;
+    height: 200px;
+    width: 300px;
+    background-color: #0D0454;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(30, 152, 152);
+    padding: 1%;
+}
+
+nav > a{
+    font-size: 20pt;
+    color: #e4e4e4;
+}
+
+.aLeft{
+    padding-top: 5%;
+}
+
+span {
+    margin-left: 50%;
+    font-size: 20pt;
+}
+
+span > a{
+    color: #e4e4e4;
+    margin-top: 15%;
+}
+
+#imglogo {
+    margin-left: 23%;
+    margin-top: -3.5%;
+    width: 210px;
+}
+
+main{
+    margin: 0 auto;
+    background-color: #ffd214;
+    padding-top: 10%;
+    text-align: justify;
+}
+
+#caixa {
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+    /* padding-bottom: 50px; */
+}
+
+form{
+    margin: 0 auto;
+}
+
+input, select{
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #ffffffa7;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+input::placeholder{
+    color: rgb(64, 64, 64);
+}
+
+#calculo{
+    width: 90px;
+    height: 45px;
+    margin-left: 50%;
+    font-size: 10pt;
+    background-color: #008b8b;
+    display: block;
+}
+
+button{
+    background-color: #008b8b;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 60px;
+    font-size: 13pt;
+    margin-bottom: 20px;
+    margin-left: 30%;
+}

@@ -1,0 +1,129 @@
+<?php
+
+?>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>CADASTRO</title>
+
+    <style>
+
+        #sexo{
+            text-transform: uppercase;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+
+        
+            <a class="aLeft" href="../Sobre/index.html">SOBRE</a>
+            <a class="aLeft" href="../Contato/index.html">CONTATO</a>
+            
+            <span>
+            <a href="./login.html">LOGIN</a>
+            <a href="./Login/cadastro.html" id="ag">CADASTRAR</a>
+            </span>
+
+            <div>
+                <a href="../index.html">
+                <img src="img/Eletro Tech.png" alt="..." id="imglogo"/>
+                </a>
+            </div>
+
+    </nav>
+
+    <main id="login" class="col-6">
+
+       
+
+        <div class="caixa, col-12" >
+            
+
+            <form action="../../controller/ClienteController.php" method="post" name="cad" class="col-10">
+
+                <div id="cadG" class="col-5">
+
+                    <div class="name">                    
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    </div>
+
+                    <div class="sexo">                    
+                        <input type="text" name="sexo" id="sexo" placeholder="Sexo M ou F" required maxlength="1">
+                    </div>
+
+                    <div class="email">
+                        <input type="email" name="mail" id="mail" placeholder="E-mail" required>
+                    </div>
+
+                    <div class="tel">
+                        <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required maxlength="17">
+                    </div>
+
+                    <div class="cpf">
+                        <input type="text" name="cpf" id="cpf" placeholder="CPF" required maxlength="14">
+                    </div>                
+
+                    <div class="senha">
+                        <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                    </div>
+
+                    <div class="senha">
+                        <input type="password" name="confirma" id="confirma" placeholder="Confirme a sua senha" required>
+                    </div>
+
+                </div>
+
+                <div id="cadEnd" class="col-5">
+
+                    <div class="end">
+                        <input type="text" name="cep" id="cep" placeholder="CEP" required maxlength="9">
+                    </div>
+
+                    <div class="end">
+                        <input type="text" name="bairro" id="bairro" placeholder="Bairro" required>
+                    </div>
+
+                    <div class="end">
+                        <input type="text" name="rua" id="rua" placeholder="Rua" required>
+                    </div>
+
+                    <div class="end">
+                        <input type="text" name="numero" id="numero" placeholder="N°" required>
+                    </div>
+
+                    <div class="end">
+                        <input type="text" name="complemento" id="complemento" placeholder="Complemento">
+                    </div>
+
+                </div>
+                
+                <div class="entrar" id="entrarC">
+                    <p>Já tem uma conta? <a href="index.php">Entre aqui.</a></p>
+                    <input type="submit" id="cadastrar" name="cadastrar" value="Cadastrar">
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </main>
+    
+</body>
+
+<script src="logica.js"></script>
+
+</html>

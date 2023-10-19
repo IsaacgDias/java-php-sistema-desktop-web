@@ -1,0 +1,178 @@
+/* ffd214 - amarelo da lâmpada*/
+
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffd214;
+    color: #fff;
+}
+
+
+nav{
+    width: 100vw;
+    height: 20vh;
+    background-color: #0D0454;
+}
+
+nav > div{
+    padding: 0;
+    position: relative;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: -1.5%;
+    height: 200px;
+    width: 300px;
+    background-color: #0D0454;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(30, 152, 152);
+    padding: 1%;
+}
+
+nav > a{
+    font-size: 20pt;
+    color: #e4e4e4;
+}
+
+.aLeft{
+    padding-top: 5%;
+}
+
+span {
+    margin-left: 50%;
+    font-size: 20pt;
+}
+
+span > a{
+    color: #e4e4e4;
+    margin-top: 15%;
+}
+
+#imglogo {
+    margin-left: 23%;
+    margin-top: -3.5%;
+    width: 210px;
+}
+
+main{
+    background-color: #ffd214;
+    padding-top: 10%;
+}
+
+.caixa {
+    margin: 0 auto;
+    margin-top: 200px;    
+}
+
+#login {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row; 
+}
+
+form{
+    margin: 0 auto;
+}
+
+div > input::placeholder{
+    color: #141414;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #ffffffa7;
+    color: #000000;
+}
+
+.name{   
+    margin-bottom: 15px;
+}
+
+.email{ 
+    margin-bottom: 15px;
+}
+
+
+.tel{
+     margin-bottom: 15px;
+}
+
+.sexo{
+     margin-bottom: 15px;
+}
+
+.end{
+     margin-top: 15px;
+}
+
+.senha{
+     margin-top: 15px;
+}
+
+
+.entrar{
+    margin: 0 auto;
+    float: right;
+}
+
+#entrarC{
+    margin-right: 30%;
+}
+
+#entrarL{
+    margin-right: 6%;
+    margin-top: 10%;
+}
+
+.entrar input {
+    margin: 0 auto;
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    /* background-color: rgb(30, 157, 136); */
+    background-color: #008b8b;
+    color: #141414;
+    font-size: 15pt;
+}
+
+input::placeholder {
+    color: #b6b6b6;
+}
+
+h1 {
+    color: #FAFAFA;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+#cadG{
+    float: left;
+    margin-bottom: 20px;
+}
+
+#cadEnd{
+    float: right;
+    padding-left: 50px;
+    border-left: #868686 solid 1px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
